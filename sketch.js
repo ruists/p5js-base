@@ -22,6 +22,8 @@ function setup() {
 
   background(bg);
   capturer = new CCapture({format: 'png', framerate: 60});
+
+  //other initializations needed
 }
 
 function draw() {
